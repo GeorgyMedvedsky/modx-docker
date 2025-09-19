@@ -1,0 +1,81 @@
+[2025-09-18 18:22:43] (ERROR @ /var/www/html/setup/includes/modinstallsettings.class.php : 146) PHP warning: fopen(/var/www/html/core/cache/setup/settings.cache.php): Failed to open stream: No such file or directory
+[2025-09-18 18:22:49] (ERROR @ /var/www/html/core/cache/setup/smarty/0f0f3afa5d3d0bbbfb777965f4539a275a2ea6f2_0.file.complete.tpl.php : 30) PHP warning: Undefined array key "errors"
+[2025-09-18 18:22:49] (ERROR @ /var/www/html/core/cache/setup/smarty/0f0f3afa5d3d0bbbfb777965f4539a275a2ea6f2_0.file.complete.tpl.php : 30) PHP warning: Attempt to read property "value" on null
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://feeds.feedburner.com/modx-announce and cache is off
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Undefined array key "onRichTextEditorInit"
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Attempt to read property "value" on null
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-18 18:23:44] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://forums.modx.com/board.xml?board=294 and cache is off
+[2025-09-18 18:25:12] (ERROR in modManagerController::render @ /var/www/html/core/model/modx/modmanagercontroller.class.php : 155) modManagerControllerDeprecated support is deprecated since version 2.2.0. 
+[2025-09-18 18:25:12] (ERROR @ /var/www/html/core/model/modx/modmanagercontrollerdeprecated.class.php : 160) Could not find action file at: /var/www/html/manager/controllers/default/welcome
+[2025-09-18 18:32:52] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:52] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:52] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:52] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:56] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:56] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:56] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:32:56] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:06] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:06] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:09] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:09] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:11] (ERROR @ /var/www/html/core/model/modx/transport/modtransportpackage.class.php : 377) PHP warning: filesize(): stat failed for https://modx.s3.amazonaws.com/extras/50f8468bf2455436ec00000d/pdotools-2.13.3-pl.transport.zip?revolution_version=Revolution-2.8.5-pl
+[2025-09-18 18:33:11] (ERROR @ /var/www/html/core/model/modx/transport/modtransportpackage.class.php : 651) PHP warning: A non-numeric value encountered
+[2025-09-18 18:33:14] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:14] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:14] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:14] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:33:31] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 158) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:33:31] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 163) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:33:31] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 164) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:33:48] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 158) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:33:48] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 163) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:33:48] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 164) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:34:03] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 158) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:34:03] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 163) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:34:03] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 164) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-18 18:40:39] (ERROR in xPDO::getService @ /var/www/html/core/xpdo/xpdo.class.php : 1235) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:40:39] (ERROR in modRestCurlClient::__construct @ /var/www/html/core/model/modx/rest/modrestcurlclient.class.php : 26) modRestClient::__construct is deprecated since version 2.3.0. Use the modRest classes instead.
+[2025-09-18 18:41:42] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Undefined array key "onRichTextEditorInit"
+[2025-09-18 18:41:42] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Attempt to read property "value" on null
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://feeds.feedburner.com/modx-announce and cache is off
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-18 18:43:21] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://forums.modx.com/board.xml?board=294 and cache is off
+[2025-09-18 18:43:33] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Undefined array key "onRichTextEditorInit"
+[2025-09-18 18:43:33] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Attempt to read property "value" on null
+[2025-09-18 18:44:00] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Undefined array key "onRichTextEditorInit"
+[2025-09-18 18:44:00] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Attempt to read property "value" on null
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://feeds.feedburner.com/modx-announce and cache is off
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-18 18:45:12] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://forums.modx.com/board.xml?board=294 and cache is off
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://feeds.feedburner.com/modx-announce and cache is off
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-19 18:27:50] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://forums.modx.com/board.xml?board=294 and cache is off
+[2025-09-19 18:36:31] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Undefined array key "onRichTextEditorInit"
+[2025-09-19 18:36:31] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Attempt to read property "value" on null
+[2025-09-19 18:36:44] (ERROR @ /var/www/html/core/xpdo/cache/xpdocachemanager.class.php : 335) PHP warning: mkdir(): File exists
+[2025-09-19 18:36:44] (ERROR @ /var/www/html/core/xpdo/cache/xpdocachemanager.class.php : 340) PHP warning: mkdir(): File exists
+[2025-09-19 18:36:46] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 158) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-19 18:36:46] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 163) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-19 18:36:46] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 164) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
