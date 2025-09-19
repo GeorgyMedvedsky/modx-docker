@@ -20,6 +20,7 @@
     'content' => '<p>You have successfully installed MODX Revolution&nbsp;[[++settings_version]]!</p>
 <p>Now that MODX is installed you can login to the manager to create your templates, manage content and install third party extras to add functionality to your&nbsp;website. </p>
 [[*test]]
+[[*test_2]]
 <h2>New to&nbsp;MODX?</h2>
 
 <p>Pages on a MODX site are called <a href="https://docs.modx.com/current/en/building-sites/resources">Resources</a>, and are visible on the left-hand side of the manager in the Resources tab. Resources can be nested under other resources, making it easy to create a tree of resources. There are different types of resources for different use&nbsp;cases.</p>
@@ -42,7 +43,7 @@
     'createdby' => 1,
     'createdon' => 1758219763,
     'editedby' => 1,
-    'editedon' => 1758303790,
+    'editedon' => 1758313920,
     'deleted' => 0,
     'deletedon' => 0,
     'deletedby' => 0,
@@ -66,6 +67,14 @@
     array (
       0 => 'test',
       1 => 'Hello, World!',
+      2 => 'default',
+      3 => NULL,
+      4 => 'text',
+    ),
+    'test_2' => 
+    array (
+      0 => 'test_2',
+      1 => 'Hello, World... Again!',
       2 => 'default',
       3 => NULL,
       4 => 'text',
@@ -319,6 +328,7 @@
         <p>You have successfully installed MODX Revolution&nbsp;2.8.5-pl!</p>
 <p>Now that MODX is installed you can login to the manager to create your templates, manage content and install third party extras to add functionality to your&nbsp;website. </p>
 Hello, World!
+Hello, World... Again!
 <h2>New to&nbsp;MODX?</h2>
 
 <p>Pages on a MODX site are called <a href="https://docs.modx.com/current/en/building-sites/resources">Resources</a>, and are visible on the left-hand side of the manager in the Resources tab. Resources can be nested under other resources, making it easy to create a tree of resources. There are different types of resources for different use&nbsp;cases.</p>
@@ -452,6 +462,57 @@ Hello, World!
           'type' => 'text',
           'name' => 'test',
           'caption' => 'test',
+          'description' => '',
+          'editor_type' => 0,
+          'category' => 0,
+          'locked' => false,
+          'elements' => '',
+          'rank' => 0,
+          'display' => 'default',
+          'default_text' => '',
+          'properties' => 
+          array (
+          ),
+          'input_properties' => 
+          array (
+            'allowBlank' => 'true',
+            'minLength' => '',
+            'maxLength' => '',
+            'regex' => '',
+            'regexText' => '',
+          ),
+          'output_properties' => 
+          array (
+          ),
+          'static' => false,
+          'static_file' => '',
+          'content' => '',
+        ),
+        'policies' => 
+        array (
+        ),
+        'source' => 
+        array (
+          'id' => 1,
+          'name' => 'Filesystem',
+          'description' => '',
+          'class_key' => 'sources.modFileMediaSource',
+          'properties' => 
+          array (
+          ),
+          'is_stream' => true,
+        ),
+      ),
+      'test_2' => 
+      array (
+        'fields' => 
+        array (
+          'id' => 2,
+          'source' => 1,
+          'property_preprocess' => false,
+          'type' => 'text',
+          'name' => 'test_2',
+          'caption' => '',
           'description' => '',
           'editor_type' => 0,
           'category' => 0,

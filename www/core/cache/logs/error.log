@@ -79,3 +79,13 @@
 [2025-09-19 18:36:46] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 158) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
 [2025-09-19 18:36:46] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 163) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
 [2025-09-19 18:36:46] (ERROR @ /var/www/html/core/model/modx/modconnectorresponse.class.php : 164) PHP warning: Cannot modify header information - headers already sent by (output started at /var/www/html/core/model/modx/modx.class.php:2737)
+[2025-09-19 20:31:03] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-19 20:31:03] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-19 20:31:03] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-19 20:31:03] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://feeds.feedburner.com/modx-announce and cache is off
+[2025-09-19 20:31:04] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): SSL: Handshake timed out
+[2025-09-19 20:31:04] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Failed to enable crypto
+[2025-09-19 20:31:04] (ERROR @ /var/www/html/core/model/modx/xmlrss/extlib/snoopy.class.php : 875) PHP warning: stream_socket_client(): Unable to connect to ssl://feeds.feedburner.com:443 (Unknown error)
+[2025-09-19 20:31:04] (ERROR @ /var/www/html/core/model/modx/xmlrss/rssfetch.class.php : 241) User warning: MagpieRSS: Failed to fetch https://forums.modx.com/board.xml?board=294 and cache is off
+[2025-09-19 20:31:20] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Undefined array key "onRichTextEditorInit"
+[2025-09-19 20:31:20] (ERROR @ /var/www/html/core/cache/mgr/smarty/default/999ba922a946e1fc9ab8135991987f88835b9c3e_0.file.update.tpl.php : 46) PHP warning: Attempt to read property "value" on null
